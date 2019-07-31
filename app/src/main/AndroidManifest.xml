@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.routes.nfcapp">
 
-
     <uses-feature android:name="android.hardware.nfc" />
 
     <uses-permission android:name="android.permission.NFC" />
@@ -16,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
         <activity
             android:name=".MainActivity"
             android:label="NFC Data Sender">
@@ -26,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
 
         <activity
@@ -44,8 +41,6 @@
 
 
     </application>
-
-
 
 
 </manifest>
