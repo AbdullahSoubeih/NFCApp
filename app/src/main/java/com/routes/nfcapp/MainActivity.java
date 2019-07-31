@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements NfcAdapter.Create
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         mEditText = (EditText) findViewById(R.id.edit_text_field);
 
         NfcAdapter mAdapter = NfcAdapter.getDefaultAdapter(this);
